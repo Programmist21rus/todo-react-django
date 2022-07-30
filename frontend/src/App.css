@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-brand {
+  margin-left: 12px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.error {
+  margin-top: 20px;
+  font-size: 24px;
+  color: red;
+}
+
+.btnrec {
+  margin-top: 20px;
+}
+
+.MainScreen{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigator{
+  background-color: lightgrey;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.navigator__button:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+
+.records{
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.leftmodal{
+  flex: 6;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  justify-content: left;
+}
+
+.create_success{
+  margin-top: 20px;
+  color: green;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.container__records {
+  flex-direction: row;
+}
