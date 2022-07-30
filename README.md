@@ -1,2 +1,2 @@
 # todo-react-djang
-Полноценнос fullstack приложение с использованием react и drf
+Полноценное fullstack приложение с использованием react и drf
